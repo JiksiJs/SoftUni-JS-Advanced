@@ -36,7 +36,7 @@ function solve() {
 
     h4.textContent = `${name} ${lastName}`;
     genderAgeP.textContent = `${gender}, ${age}`;
-    descriptionP.textContent = description;
+    descriptionP.textContent = `Dish description: ${description}`;
 
     const editBtn = document.createElement("button");
     editBtn.classList.add("edit-btn");
