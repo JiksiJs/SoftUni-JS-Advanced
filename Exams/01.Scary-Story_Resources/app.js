@@ -36,6 +36,7 @@ function solve() {
     const element = document.createElement("article");
     const li = document.createElement("li");
     li.classList.add("story-info");
+    // Using innerHTML(bad practice) to save time as this is an exam and there is time limit -> better solution is to create new elements and append them to the DOM
     element.innerHTML = `<h4>Name: ${name} ${surname}</h4>
     <p>Age: ${age}</p>
     <p>Title: ${title}</p>
